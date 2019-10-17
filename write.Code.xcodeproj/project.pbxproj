@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3929CE342357A75D00DE9855 /* MiProgloboTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CE332357A75D00DE9855 /* MiProgloboTableViewController.swift */; };
+		3929CE362357B26100DE9855 /* InfoProgloboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CE352357B26100DE9855 /* InfoProgloboViewController.swift */; };
+		393943ED234F7A560080827E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943EC234F7A560080827E /* MenuViewController.swift */; };
+		393943EF234F7CAE0080827E /* MapaDesafioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943EE234F7CAE0080827E /* MapaDesafioViewController.swift */; };
+		393943F1234F7D910080827E /* DesafioSeleccionadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943F0234F7D910080827E /* DesafioSeleccionadoViewController.swift */; };
 		39CE62992342936D0064839D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE62982342936D0064839D /* AppDelegate.swift */; };
 		39CE629B2342936D0064839D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE629A2342936D0064839D /* ViewController.swift */; };
 		39CE629E2342936D0064839D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CE629C2342936D0064839D /* Main.storyboard */; };
 		39CE62A02342936E0064839D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CE629F2342936E0064839D /* Assets.xcassets */; };
 		39CE62A32342936E0064839D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CE62A12342936E0064839D /* LaunchScreen.storyboard */; };
+		39D96C2523577C53006C58AD /* ModoCreativoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C2423577C53006C58AD /* ModoCreativoViewController.swift */; };
+		39D96C28235780DC006C58AD /* MisEscenariosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C27235780DC006C58AD /* MisEscenariosViewController.swift */; };
+		39D96C2A235781A2006C58AD /* CreaTuEscenarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C29235781A2006C58AD /* CreaTuEscenarioViewController.swift */; };
+		39D96C2E23578365006C58AD /* InfoDesafioLocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C2D23578365006C58AD /* InfoDesafioLocalViewController.swift */; };
+		39D96C3223578A4F006C58AD /* ListaDesafiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3123578A4F006C58AD /* ListaDesafiosViewController.swift */; };
+		39D96C3423578B54006C58AD /* CamaraScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3323578B54006C58AD /* CamaraScanViewController.swift */; };
+		39D96C3623578BBF006C58AD /* EmpezarARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3523578BBF006C58AD /* EmpezarARViewController.swift */; };
+		39D96C3823578C0F006C58AD /* ARCompletadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3723578C0F006C58AD /* ARCompletadoViewController.swift */; };
+		39D96C3A23579154006C58AD /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3923579154006C58AD /* TutorialViewController.swift */; };
+		39D96C3C235793E6006C58AD /* MiProgloboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3B235793E6006C58AD /* MiProgloboViewController.swift */; };
+		39D96C3E2357959E006C58AD /* CreditoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3D2357959E006C58AD /* CreditoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3929CE332357A75D00DE9855 /* MiProgloboTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiProgloboTableViewController.swift; sourceTree = "<group>"; };
+		3929CE352357B26100DE9855 /* InfoProgloboViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoProgloboViewController.swift; sourceTree = "<group>"; };
+		393943EC234F7A560080827E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		393943EE234F7CAE0080827E /* MapaDesafioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaDesafioViewController.swift; sourceTree = "<group>"; };
+		393943F0234F7D910080827E /* DesafioSeleccionadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioSeleccionadoViewController.swift; sourceTree = "<group>"; };
 		39CE62952342936D0064839D /* write.Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = write.Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CE62982342936D0064839D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39CE629A2342936D0064839D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,17 @@
 		39CE629F2342936E0064839D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39CE62A22342936E0064839D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39CE62A42342936E0064839D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D96C2423577C53006C58AD /* ModoCreativoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModoCreativoViewController.swift; sourceTree = "<group>"; };
+		39D96C27235780DC006C58AD /* MisEscenariosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisEscenariosViewController.swift; sourceTree = "<group>"; };
+		39D96C29235781A2006C58AD /* CreaTuEscenarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaTuEscenarioViewController.swift; sourceTree = "<group>"; };
+		39D96C2D23578365006C58AD /* InfoDesafioLocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDesafioLocalViewController.swift; sourceTree = "<group>"; };
+		39D96C3123578A4F006C58AD /* ListaDesafiosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDesafiosViewController.swift; sourceTree = "<group>"; };
+		39D96C3323578B54006C58AD /* CamaraScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraScanViewController.swift; sourceTree = "<group>"; };
+		39D96C3523578BBF006C58AD /* EmpezarARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpezarARViewController.swift; sourceTree = "<group>"; };
+		39D96C3723578C0F006C58AD /* ARCompletadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCompletadoViewController.swift; sourceTree = "<group>"; };
+		39D96C3923579154006C58AD /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		39D96C3B235793E6006C58AD /* MiProgloboViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiProgloboViewController.swift; sourceTree = "<group>"; };
+		39D96C3D2357959E006C58AD /* CreditoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +92,22 @@
 				39CE629F2342936E0064839D /* Assets.xcassets */,
 				39CE62A12342936E0064839D /* LaunchScreen.storyboard */,
 				39CE62A42342936E0064839D /* Info.plist */,
+				393943EC234F7A560080827E /* MenuViewController.swift */,
+				393943EE234F7CAE0080827E /* MapaDesafioViewController.swift */,
+				393943F0234F7D910080827E /* DesafioSeleccionadoViewController.swift */,
+				39D96C2423577C53006C58AD /* ModoCreativoViewController.swift */,
+				39D96C27235780DC006C58AD /* MisEscenariosViewController.swift */,
+				39D96C29235781A2006C58AD /* CreaTuEscenarioViewController.swift */,
+				39D96C2D23578365006C58AD /* InfoDesafioLocalViewController.swift */,
+				39D96C3123578A4F006C58AD /* ListaDesafiosViewController.swift */,
+				39D96C3323578B54006C58AD /* CamaraScanViewController.swift */,
+				39D96C3523578BBF006C58AD /* EmpezarARViewController.swift */,
+				39D96C3723578C0F006C58AD /* ARCompletadoViewController.swift */,
+				39D96C3923579154006C58AD /* TutorialViewController.swift */,
+				39D96C3D2357959E006C58AD /* CreditoViewController.swift */,
+				3929CE332357A75D00DE9855 /* MiProgloboTableViewController.swift */,
+				39D96C3B235793E6006C58AD /* MiProgloboViewController.swift */,
+				3929CE352357B26100DE9855 /* InfoProgloboViewController.swift */,
 			);
 			path = write.Code;
 			sourceTree = "<group>";
@@ -135,8 +183,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D96C2523577C53006C58AD /* ModoCreativoViewController.swift in Sources */,
 				39CE629B2342936D0064839D /* ViewController.swift in Sources */,
+				39D96C2A235781A2006C58AD /* CreaTuEscenarioViewController.swift in Sources */,
+				393943ED234F7A560080827E /* MenuViewController.swift in Sources */,
+				39D96C3423578B54006C58AD /* CamaraScanViewController.swift in Sources */,
+				3929CE342357A75D00DE9855 /* MiProgloboTableViewController.swift in Sources */,
 				39CE62992342936D0064839D /* AppDelegate.swift in Sources */,
+				39D96C28235780DC006C58AD /* MisEscenariosViewController.swift in Sources */,
+				39D96C3C235793E6006C58AD /* MiProgloboViewController.swift in Sources */,
+				39D96C3823578C0F006C58AD /* ARCompletadoViewController.swift in Sources */,
+				39D96C3A23579154006C58AD /* TutorialViewController.swift in Sources */,
+				39D96C3223578A4F006C58AD /* ListaDesafiosViewController.swift in Sources */,
+				3929CE362357B26100DE9855 /* InfoProgloboViewController.swift in Sources */,
+				393943F1234F7D910080827E /* DesafioSeleccionadoViewController.swift in Sources */,
+				39D96C2E23578365006C58AD /* InfoDesafioLocalViewController.swift in Sources */,
+				39D96C3623578BBF006C58AD /* EmpezarARViewController.swift in Sources */,
+				393943EF234F7CAE0080827E /* MapaDesafioViewController.swift in Sources */,
+				39D96C3E2357959E006C58AD /* CreditoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GZB9FZT34;
 				INFOPLIST_FILE = write.Code/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GZB9FZT34;
 				INFOPLIST_FILE = write.Code/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
