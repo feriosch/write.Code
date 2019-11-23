@@ -12,7 +12,6 @@
 		393943ED234F7A560080827E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943EC234F7A560080827E /* MenuViewController.swift */; };
 		393943EF234F7CAE0080827E /* MapaDesafioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943EE234F7CAE0080827E /* MapaDesafioViewController.swift */; };
 		393943F1234F7D910080827E /* DesafioSeleccionadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943F0234F7D910080827E /* DesafioSeleccionadoViewController.swift */; };
-		39C7621023873C40008D72EC /* CaritaFrente.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C7620F23873C40008D72EC /* CaritaFrente.png */; };
 		39CE62992342936D0064839D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE62982342936D0064839D /* AppDelegate.swift */; };
 		39CE629B2342936D0064839D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE629A2342936D0064839D /* ViewController.swift */; };
 		39CE629E2342936D0064839D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CE629C2342936D0064839D /* Main.storyboard */; };
@@ -37,7 +36,6 @@
 		393943EC234F7A560080827E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		393943EE234F7CAE0080827E /* MapaDesafioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaDesafioViewController.swift; sourceTree = "<group>"; };
 		393943F0234F7D910080827E /* DesafioSeleccionadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioSeleccionadoViewController.swift; sourceTree = "<group>"; };
-		39C7620F23873C40008D72EC /* CaritaFrente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CaritaFrente.png; path = "../../../Documents/Ferando/CARITASpng (1)/CaritaFrente.png"; sourceTree = "<group>"; };
 		39CE62952342936D0064839D /* write.Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = write.Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CE62982342936D0064839D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39CE629A2342936D0064839D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 				39CE62982342936D0064839D /* AppDelegate.swift */,
 				39CE629A2342936D0064839D /* ViewController.swift */,
 				39CE629C2342936D0064839D /* Main.storyboard */,
-				39C7620F23873C40008D72EC /* CaritaFrente.png */,
 				39CE629F2342936E0064839D /* Assets.xcassets */,
 				39CE62A12342936E0064839D /* LaunchScreen.storyboard */,
 				39CE62A42342936E0064839D /* Info.plist */,
@@ -176,7 +173,6 @@
 				39CE62A32342936E0064839D /* LaunchScreen.storyboard in Resources */,
 				39CE62A02342936E0064839D /* Assets.xcassets in Resources */,
 				39CE629E2342936D0064839D /* Main.storyboard in Resources */,
-				39C7621023873C40008D72EC /* CaritaFrente.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GZB9FZT34;
 				INFOPLIST_FILE = write.Code/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,7 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GZB9FZT34;
 				INFOPLIST_FILE = write.Code/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
