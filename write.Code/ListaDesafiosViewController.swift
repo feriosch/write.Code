@@ -8,13 +8,39 @@
 
 import UIKit
 
-class ListaDesafiosViewController: UIViewController {
-
+class ListaDesafiosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    //Hardcodeado
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "zelda3", for: indexPath)
+        
+        cell.textLabel?.text = "Desafio harcodeado"
+        return cell
+        
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    
+    
+    @IBOutlet weak var desafiosTable: UITableView!
+    
+    
     @IBAction func regresarButton(_ sender: UIButton) {
         removeViewControllerStack()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        desafiosTable.delegate = self
+        desafiosTable.dataSource = self
+        
 
         // Do any additional setup after loading the view.
     }
@@ -28,14 +54,16 @@ class ListaDesafiosViewController: UIViewController {
 
     
 
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        let destino = segue.destination as! InfoDesafioLocalViewController
+        
+        destino.tituloMisionText = "Titulo harcodeado"
+        destino.descripcionMisionText = "Descripcion muy harcodeada"
+        
     }
-    */
+    
 
 }

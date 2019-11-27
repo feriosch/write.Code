@@ -9,12 +9,22 @@
 import UIKit
 
 class InfoDesafioLocalViewController: UIViewController {
-
+    
+    var tituloMisionText:String = ""
+    var descripcionMisionText:String = ""
+    
+    @IBOutlet weak var tituloMision: UILabel!
+    @IBOutlet weak var estrellasDificultadImage: UIImageView!
+    @IBOutlet weak var descripcionMision: UILabel!
+    
     @IBAction func regresarButton(_ sender: UIButton) {
         self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        tituloMision.text = tituloMisionText
+        descripcionMision.text = descripcionMisionText
+        
 
         // Do any additional setup after loading the view.
     }
