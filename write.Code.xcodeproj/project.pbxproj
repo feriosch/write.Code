@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39269D01238ED98900F8DFD4 /* AttractionAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39269D00238ED98900F8DFD4 /* AttractionAnnotation.swift */; };
+		39269D03238EDA3800F8DFD4 /* AttractionAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39269D02238EDA3800F8DFD4 /* AttractionAnnotationView.swift */; };
+		39269D05238EE58600F8DFD4 /* StarbucksAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39269D04238EE58600F8DFD4 /* StarbucksAnnotation.swift */; };
+		39269D0A238F09BD00F8DFD4 /* DesafioAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39269D09238F09BD00F8DFD4 /* DesafioAnnotation.swift */; };
 		3929CE342357A75D00DE9855 /* MiProgloboTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CE332357A75D00DE9855 /* MiProgloboTableViewController.swift */; };
 		3929CE362357B26100DE9855 /* InfoProgloboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CE352357B26100DE9855 /* InfoProgloboViewController.swift */; };
 		393943ED234F7A560080827E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943EC234F7A560080827E /* MenuViewController.swift */; };
@@ -31,6 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39269D00238ED98900F8DFD4 /* AttractionAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionAnnotation.swift; sourceTree = "<group>"; };
+		39269D02238EDA3800F8DFD4 /* AttractionAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionAnnotationView.swift; sourceTree = "<group>"; };
+		39269D04238EE58600F8DFD4 /* StarbucksAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksAnnotation.swift; sourceTree = "<group>"; };
+		39269D09238F09BD00F8DFD4 /* DesafioAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioAnnotation.swift; sourceTree = "<group>"; };
 		3929CE332357A75D00DE9855 /* MiProgloboTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiProgloboTableViewController.swift; sourceTree = "<group>"; };
 		3929CE352357B26100DE9855 /* InfoProgloboViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoProgloboViewController.swift; sourceTree = "<group>"; };
 		393943EC234F7A560080827E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39269D08238F098D00F8DFD4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				39269D09238F09BD00F8DFD4 /* DesafioAnnotation.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		39CE628C2342936D0064839D = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +102,7 @@
 		39CE62972342936D0064839D /* write.Code */ = {
 			isa = PBXGroup;
 			children = (
+				39269D08238F098D00F8DFD4 /* Objects */,
 				39CE62982342936D0064839D /* AppDelegate.swift */,
 				39CE629A2342936D0064839D /* ViewController.swift */,
 				39CE629C2342936D0064839D /* Main.storyboard */,
@@ -108,6 +125,9 @@
 				3929CE332357A75D00DE9855 /* MiProgloboTableViewController.swift */,
 				39D96C3B235793E6006C58AD /* MiProgloboViewController.swift */,
 				3929CE352357B26100DE9855 /* InfoProgloboViewController.swift */,
+				39269D00238ED98900F8DFD4 /* AttractionAnnotation.swift */,
+				39269D02238EDA3800F8DFD4 /* AttractionAnnotationView.swift */,
+				39269D04238EE58600F8DFD4 /* StarbucksAnnotation.swift */,
 			);
 			path = write.Code;
 			sourceTree = "<group>";
@@ -183,10 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39269D0A238F09BD00F8DFD4 /* DesafioAnnotation.swift in Sources */,
 				39D96C2523577C53006C58AD /* ModoCreativoViewController.swift in Sources */,
 				39CE629B2342936D0064839D /* ViewController.swift in Sources */,
 				39D96C2A235781A2006C58AD /* CreaTuEscenarioViewController.swift in Sources */,
+				39269D05238EE58600F8DFD4 /* StarbucksAnnotation.swift in Sources */,
 				393943ED234F7A560080827E /* MenuViewController.swift in Sources */,
+				39269D03238EDA3800F8DFD4 /* AttractionAnnotationView.swift in Sources */,
 				39D96C3423578B54006C58AD /* CamaraScanViewController.swift in Sources */,
 				3929CE342357A75D00DE9855 /* MiProgloboTableViewController.swift in Sources */,
 				39CE62992342936D0064839D /* AppDelegate.swift in Sources */,
@@ -197,6 +220,7 @@
 				39D96C3223578A4F006C58AD /* ListaDesafiosViewController.swift in Sources */,
 				3929CE362357B26100DE9855 /* InfoProgloboViewController.swift in Sources */,
 				393943F1234F7D910080827E /* DesafioSeleccionadoViewController.swift in Sources */,
+				39269D01238ED98900F8DFD4 /* AttractionAnnotation.swift in Sources */,
 				39D96C2E23578365006C58AD /* InfoDesafioLocalViewController.swift in Sources */,
 				39D96C3623578BBF006C58AD /* EmpezarARViewController.swift in Sources */,
 				393943EF234F7CAE0080827E /* MapaDesafioViewController.swift in Sources */,

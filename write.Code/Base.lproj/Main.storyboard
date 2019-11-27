@@ -779,14 +779,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MapaInicio" translatesAutoresizingMaskIntoConstraints="NO" id="YGG-Dm-r5e">
-                                <rect key="frame" x="0.0" y="0.0" width="376" height="667"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9x5-MF-QF5">
-                                <rect key="frame" x="16" y="601" width="103" height="46"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kAt-z8-6aG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9x5-MF-QF5">
+                                <rect key="frame" x="135" y="601" width="103" height="46"/>
                                 <color key="backgroundColor" red="0.78608095645904541" green="0.0003371475322637707" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="103" id="1yR-fB-Iwu"/>
+                                    <constraint firstAttribute="height" constant="46" id="FG9-Q5-oA6"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Menu"/>
@@ -795,7 +795,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMb-xs-NKj">
-                                <rect key="frame" x="157" y="301" width="59" height="30"/>
+                                <rect key="frame" x="158" y="34" width="59" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.06974860209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
                                     <segue destination="RQH-nU-Eif" kind="show" id="axm-gw-EfM"/>
@@ -804,19 +804,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="tMb-xs-NKj" firstAttribute="top" secondItem="h8A-3M-PHp" secondAttribute="top" constant="301" id="0Zv-Rf-nKN"/>
-                            <constraint firstItem="YGG-Dm-r5e" firstAttribute="top" secondItem="h8A-3M-PHp" secondAttribute="top" id="5fR-gG-V2X"/>
-                            <constraint firstItem="9x5-MF-QF5" firstAttribute="top" secondItem="YGG-Dm-r5e" secondAttribute="bottom" constant="-66" id="B6T-Sf-6tA"/>
-                            <constraint firstItem="YGG-Dm-r5e" firstAttribute="bottom" secondItem="h8A-3M-PHp" secondAttribute="bottom" id="Egq-aF-cJx"/>
-                            <constraint firstItem="9x5-MF-QF5" firstAttribute="leading" secondItem="ihU-Ns-yCi" secondAttribute="leadingMargin" id="FxP-Xp-f2l"/>
-                            <constraint firstItem="h8A-3M-PHp" firstAttribute="trailing" secondItem="tMb-xs-NKj" secondAttribute="trailing" constant="159" id="KUM-th-2kb"/>
-                            <constraint firstItem="tMb-xs-NKj" firstAttribute="leading" secondItem="h8A-3M-PHp" secondAttribute="leading" constant="157" id="Vas-KG-9tP"/>
-                            <constraint firstItem="YGG-Dm-r5e" firstAttribute="centerX" secondItem="ihU-Ns-yCi" secondAttribute="centerX" id="YBh-BH-uVN"/>
-                            <constraint firstItem="YGG-Dm-r5e" firstAttribute="leading" secondItem="ihU-Ns-yCi" secondAttribute="leading" id="n5Y-OV-rzs"/>
+                            <constraint firstItem="kAt-z8-6aG" firstAttribute="bottom" secondItem="h8A-3M-PHp" secondAttribute="bottom" id="0yf-qd-5XX"/>
+                            <constraint firstItem="kAt-z8-6aG" firstAttribute="leading" secondItem="h8A-3M-PHp" secondAttribute="leading" id="5Vl-Tj-mSD"/>
+                            <constraint firstItem="9x5-MF-QF5" firstAttribute="leading" secondItem="h8A-3M-PHp" secondAttribute="leading" constant="135" id="7n3-bn-JXr"/>
+                            <constraint firstItem="h8A-3M-PHp" firstAttribute="bottom" secondItem="9x5-MF-QF5" secondAttribute="bottom" constant="20" id="9Y7-o9-gdw"/>
+                            <constraint firstItem="h8A-3M-PHp" firstAttribute="trailing" secondItem="9x5-MF-QF5" secondAttribute="trailing" constant="137" id="SZh-3e-vtU"/>
+                            <constraint firstItem="tMb-xs-NKj" firstAttribute="centerX" secondItem="9x5-MF-QF5" secondAttribute="centerX" constant="1" id="X2k-5e-2ke"/>
+                            <constraint firstItem="tMb-xs-NKj" firstAttribute="top" secondItem="h8A-3M-PHp" secondAttribute="top" constant="34" id="b0j-Pp-YbN"/>
+                            <constraint firstItem="tMb-xs-NKj" firstAttribute="leading" secondItem="h8A-3M-PHp" secondAttribute="leading" constant="158" id="rlR-sD-JM6"/>
+                            <constraint firstItem="kAt-z8-6aG" firstAttribute="centerX" secondItem="ihU-Ns-yCi" secondAttribute="centerX" id="sZD-FE-PD7"/>
+                            <constraint firstItem="kAt-z8-6aG" firstAttribute="top" secondItem="h8A-3M-PHp" secondAttribute="top" id="xkg-zl-hsa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="h8A-3M-PHp"/>
                     </view>
                     <navigationItem key="navigationItem" id="rjl-uj-Kfd"/>
+                    <connections>
+                        <outlet property="mapa" destination="kAt-z8-6aG" id="BE3-UD-GD2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VP0-c1-N7e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -921,6 +925,28 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="DZG-YE-uhA">
                                 <rect key="frame" x="210" y="58" width="112" height="109"/>
                             </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WqB-t3-h7y">
+                                <rect key="frame" x="25" y="187" width="325" height="365"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EGC-cJ-j7R">
+                                    <size key="itemSize" width="240" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="aIn-3Y-M75">
+                                        <rect key="frame" x="42.5" y="0.0" width="240" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zdv-qm-B1i">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="240" height="50"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="0.79143184423446655" green="0.94452190399169922" blue="0.99217718839645386" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -1384,7 +1410,6 @@
         <image name="EscenarioPlay" width="711" height="1541"/>
         <image name="Image" width="201.5" height="157.5"/>
         <image name="MapaDesafio" width="606" height="1316"/>
-        <image name="MapaInicio" width="607" height="1312"/>
         <image name="ScanCodigo2" width="678" height="1478"/>
         <image name="SplashScreen" width="1302" height="1208"/>
         <image name="Tutorial" width="701" height="1528"/>
@@ -1396,9 +1421,9 @@
         <image name="x.circle.fill" catalog="system" width="64" height="62"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4re-0I-mWy"/>
+        <segue reference="MpY-Vz-xFn"/>
         <segue reference="AZR-gE-GkK"/>
-        <segue reference="V9i-gV-kGC"/>
+        <segue reference="nwL-b8-SX9"/>
         <segue reference="0ck-vm-w5p"/>
         <segue reference="QLS-7D-Lzm"/>
     </inferredMetricsTieBreakers>
