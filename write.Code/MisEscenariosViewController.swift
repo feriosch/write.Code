@@ -20,10 +20,16 @@ class MisEscenariosViewController: UIViewController, UICollectionViewDelegateFlo
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width : collectionView.frame.width / 2.3, height: collectionView.frame.width / 2.5 )
+    }
+    
 
     
 
     @IBOutlet weak var escenariosCollectionView: UICollectionView!
+    
+    
     @IBAction func regresarButton(_ sender: UIButton) {
         self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
