@@ -16,6 +16,7 @@
 		393943ED234F7A560080827E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943EC234F7A560080827E /* MenuViewController.swift */; };
 		393943EF234F7CAE0080827E /* MapaDesafioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943EE234F7CAE0080827E /* MapaDesafioViewController.swift */; };
 		393943F1234F7D910080827E /* DesafioSeleccionadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393943F0234F7D910080827E /* DesafioSeleccionadoViewController.swift */; };
+		3984D1E123902C22009DEBD3 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984D1E023902C22009DEBD3 /* ARViewController.swift */; };
 		39CE62992342936D0064839D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE62982342936D0064839D /* AppDelegate.swift */; };
 		39CE629B2342936D0064839D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE629A2342936D0064839D /* ViewController.swift */; };
 		39CE629E2342936D0064839D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CE629C2342936D0064839D /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		393943EC234F7A560080827E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		393943EE234F7CAE0080827E /* MapaDesafioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaDesafioViewController.swift; sourceTree = "<group>"; };
 		393943F0234F7D910080827E /* DesafioSeleccionadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioSeleccionadoViewController.swift; sourceTree = "<group>"; };
+		3984D1E023902C22009DEBD3 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		39CE62952342936D0064839D /* write.Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = write.Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CE62982342936D0064839D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39CE629A2342936D0064839D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,14 @@
 			name = Objects;
 			sourceTree = "<group>";
 		};
+		3984D1DF23902AFC009DEBD3 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				3984D1E023902C22009DEBD3 /* ARViewController.swift */,
+			);
+			name = AR;
+			sourceTree = "<group>";
+		};
 		39CE628C2342936D0064839D = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		39CE62972342936D0064839D /* write.Code */ = {
 			isa = PBXGroup;
 			children = (
+				3984D1DF23902AFC009DEBD3 /* AR */,
 				39F173E9238F419E0086D1DB /* TextRecognition */,
 				39269D08238F098D00F8DFD4 /* Objects */,
 				39CE62982342936D0064839D /* AppDelegate.swift */,
@@ -217,6 +228,7 @@
 				39269D0A238F09BD00F8DFD4 /* DesafioAnnotation.swift in Sources */,
 				39D96C2523577C53006C58AD /* ModoCreativoViewController.swift in Sources */,
 				39CE629B2342936D0064839D /* ViewController.swift in Sources */,
+				3984D1E123902C22009DEBD3 /* ARViewController.swift in Sources */,
 				39D96C2A235781A2006C58AD /* CreaTuEscenarioViewController.swift in Sources */,
 				39269D05238EE58600F8DFD4 /* StarbucksAnnotation.swift in Sources */,
 				393943ED234F7A560080827E /* MenuViewController.swift in Sources */,
