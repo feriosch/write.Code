@@ -48,5 +48,7 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Localizar tus desafios</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Deteccion de tu codigo</string>
 </dict>
 </plist>

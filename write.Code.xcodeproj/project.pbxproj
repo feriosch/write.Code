@@ -32,6 +32,7 @@
 		39D96C3A23579154006C58AD /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3923579154006C58AD /* TutorialViewController.swift */; };
 		39D96C3C235793E6006C58AD /* MiProgloboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3B235793E6006C58AD /* MiProgloboViewController.swift */; };
 		39D96C3E2357959E006C58AD /* CreditoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D96C3D2357959E006C58AD /* CreditoViewController.swift */; };
+		39F173EB238F43200086D1DB /* TextRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F173EA238F43200086D1DB /* TextRecognitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		39D96C3923579154006C58AD /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		39D96C3B235793E6006C58AD /* MiProgloboViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiProgloboViewController.swift; sourceTree = "<group>"; };
 		39D96C3D2357959E006C58AD /* CreditoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditoViewController.swift; sourceTree = "<group>"; };
+		39F173EA238F43200086D1DB /* TextRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		39CE62972342936D0064839D /* write.Code */ = {
 			isa = PBXGroup;
 			children = (
+				39F173E9238F419E0086D1DB /* TextRecognition */,
 				39269D08238F098D00F8DFD4 /* Objects */,
 				39CE62982342936D0064839D /* AppDelegate.swift */,
 				39CE629A2342936D0064839D /* ViewController.swift */,
@@ -130,6 +133,14 @@
 				39269D04238EE58600F8DFD4 /* StarbucksAnnotation.swift */,
 			);
 			path = write.Code;
+			sourceTree = "<group>";
+		};
+		39F173E9238F419E0086D1DB /* TextRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				39F173EA238F43200086D1DB /* TextRecognitionViewController.swift */,
+			);
+			path = TextRecognition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 				39D96C3623578BBF006C58AD /* EmpezarARViewController.swift in Sources */,
 				393943EF234F7CAE0080827E /* MapaDesafioViewController.swift in Sources */,
 				39D96C3E2357959E006C58AD /* CreditoViewController.swift in Sources */,
+				39F173EB238F43200086D1DB /* TextRecognitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
